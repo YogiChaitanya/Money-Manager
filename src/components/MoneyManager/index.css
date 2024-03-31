@@ -1,0 +1,107 @@
+/* Write your CSS here  MoneyManager*/
+.bg-container {
+  background-color: #ffffff;
+  padding: 40px;
+}
+
+.card1 {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  height: 30vh;
+  padding: 20px;
+
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+
+.paragraph1 {
+  color: #0b69ff;
+}
+
+.card12 {
+  display: flex;
+  flex-direction: row;
+}
+
+.card12-1 {
+  width: 40%;
+  padding: 30px;
+
+  display: flex;
+  flex-direction: column;
+
+  border: 1px solid #cbd5e1;
+  border-radius: 20px;
+}
+
+.title-input {
+  padding: 10px;
+
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  outline: none;
+
+  margin-bottom: 20px;
+}
+
+.amount-input {
+  padding: 10px;
+
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  outline: none;
+
+  margin-bottom: 20px;
+}
+
+.type-select-btn {
+  padding: 10px;
+
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  outline: none;
+
+  margin-bottom: 20px;
+}
+
+.add-btn {
+  color: #ffffff;
+  background-color: #0b69ff;
+  height: 40px;
+  width: 60px;
+
+  border-radius: 5px;
+  border: none;
+}
+
+.history-container {
+  padding: 30px;
+  width: 50%;
+
+  border: 1px solid #cbd5e1;
+  border-radius: 20px;
+
+  margin-left: 40px;
+}
+
+.history-sub-titles {
+  display: flex;
+  flex-direction: row;
+
+  border: 1px solid #7e858e;
+  border-radius: 2px;
+}
+
+.paragraph4 {
+  padding-left: 70px;
+  font-size: 17px;
+  font-weight: bold;
+  color: #1e293b;
+}
+
+.list-container {
+  list-style-type: none;
+
+  padding: 0px;
+  margin: 0px;
+}
